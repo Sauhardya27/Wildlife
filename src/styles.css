@@ -99,7 +99,16 @@ to {opacity: 1}
 .text {font-size: 11px}
 }
 
-
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+input[type="checkbox"]:checked + .accordion-label + .accordion-content {
+  max-height: 1000px; /* Adjust this value based on your content height */
+  width: 100%;
+  transition: max-height 0.5s ease-in-out;
+}
 
 
 
