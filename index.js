@@ -39,17 +39,38 @@ function showSlides() {
 }
 
 const modal = document.querySelector('.modal');
-const showModal = document.querySelector('.show-modal');
-const closeModal = document.querySelectorAll('.close-modal');
+const showModalButtons = document.querySelectorAll('.show-modal');
+const closeModalButtons = document.querySelectorAll('.close-modal');
 
-showModal.addEventListener('click', function(){
-  modal.classList.remove('hidden')
-});
-
-closeModal.forEach(close => {
-  close.addEventListener('click', function(){
-    modal.classList.add('hidden');
-    
+// Add a click event listener to each "show-modal" button
+showModalButtons.forEach(showButton => {
+  showButton.addEventListener('click', function() {
+    modal.classList.remove('hidden');
   });
 });
+
+// Add a click event listener to each "close-modal" button
+closeModalButtons.forEach(closeButton => {
+  closeButton.addEventListener('click', function() {
+    modal.classList.add('hidden');
+  });
+});
+
+const labels = document.querySelectorAll('.accordion-label');
+
+labels.forEach((label, index) => {
+  const input = label.previousElementSibling;
+
+  label.addEventListener('click', function () {
+    if (input.checked) {
+      label.classList.remove('bg-brownOrange'); // Remove red color when collapsing
+    } else {
+      label.classList.add('bg-brownOrange'); // Add red color when expanding
+    }
+  });
+});
+
+
+
+
 
