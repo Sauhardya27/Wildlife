@@ -825,6 +825,10 @@ video {
   width: 150px;
 }
 
+.w-\[210px\] {
+  width: 210px;
+}
+
 .w-\[231px\] {
   width: 231px;
 }
@@ -983,6 +987,14 @@ video {
 
 .border-t-4 {
   border-top-width: 4px;
+}
+
+.border-r-20 {
+  border-right-width: 20px;
+}
+
+.border-l-20 {
+  border-left-width: 20px;
 }
 
 .border-brownOrange {
@@ -1171,6 +1183,11 @@ video {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xl {
