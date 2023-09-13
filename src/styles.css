@@ -110,5 +110,26 @@ input[type="checkbox"]:checked + .accordion-label + .accordion-content {
   transition: max-height 0.5s ease-in-out;
 }
 
+@media (min-width: 1280px) {
+  h1.xl\:text-12xl {
+      font-size: 12rem !important; /* Use !important to increase specificity */
+  }
+}
 
+@media (min-width: 1280px) {
+  #dots.xl\:text-12xl {
+      font-size: 12rem !important; /* Use !important to increase specificity */
+  }
+}
 
+@media (min-width: 1024px) {
+  .custom-lg-left {
+    left: 19rem !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-xl-left {
+    left: 31rem !important;
+  }
+}
