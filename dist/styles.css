@@ -674,10 +674,6 @@ video {
   top: 4050px;
 }
 
-.left-1\/2 {
-  left: 50%;
-}
-
 .-z-20 {
   z-index: -20;
 }
@@ -845,10 +841,6 @@ video {
   width: 400px;
 }
 
-.w-\[430px\] {
-  width: 430px;
-}
-
 .w-\[470px\] {
   width: 470px;
 }
@@ -859,11 +851,6 @@ video {
 
 .max-w-6xl {
   max-width: 72rem;
-}
-
-.-translate-x-1\/2 {
-  --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
@@ -1171,8 +1158,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-8xl {
-  font-size: 6rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -1450,26 +1437,7 @@ input[type="checkbox"]:checked + .accordion-label + .accordion-content {
   padding-right: 0.75rem;
 }
 
-@media (min-width: 640px) {
-  .sm\:left-0 {
-    left: 0px;
-  }
-
-  .sm\:right-0 {
-    right: 0px;
-  }
-
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media (min-width: 768px) {
-  .md\:static {
-    position: static;
-  }
-
   .md\:left-19 {
     left: 19rem;
   }
@@ -1496,14 +1464,6 @@ input[type="checkbox"]:checked + .accordion-label + .accordion-content {
 
   .md\:top-\[3000px\] {
     top: 3000px;
-  }
-
-  .md\:left-1\/2 {
-    left: 50%;
-  }
-
-  .md\:left-1 {
-    left: 0.25rem;
   }
 
   .md\:mx-6 {
@@ -1552,20 +1512,6 @@ input[type="checkbox"]:checked + .accordion-label + .accordion-content {
     width: 600px;
   }
 
-  .md\:w-full {
-    width: 100%;
-  }
-
-  .md\:translate-x-19 {
-    --tw-translate-x: 19rem;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .md\:-translate-x-1\/2 {
-    --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .md\:transform-none {
     transform: none;
   }
@@ -1580,10 +1526,6 @@ input[type="checkbox"]:checked + .accordion-label + .accordion-content {
 
   .md\:pr-16 {
     padding-right: 4rem;
-  }
-
-  .md\:text-center {
-    text-align: center;
   }
 
   .md\:text-5xl {
